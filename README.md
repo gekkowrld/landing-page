@@ -14,7 +14,8 @@ Feel free to:
 
 <img src="https://github.com/gekkowrld/landing-page/blob/d18bbd374725ae5cb3c18bda3805b4fe3ba095cc/imgs/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" style= "width: 100vw;" alt="Internal motherboard circuit">
 Photo by <a href="https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexandre Debiève</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+  <br>
+  <hr>
 <img src="https://github.com/gekkowrld/landing-page/blob/d18bbd374725ae5cb3c18bda3805b4fe3ba095cc/imgs/thisisengineering-raeng-8hgmG03spF4-unsplash.jpg" style= "width: 100vw;" >
 Photo by <a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ThisisEngineering RAEng</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
