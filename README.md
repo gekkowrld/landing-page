@@ -21,7 +21,7 @@ Photo by <a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&ut
 
 Photo by <a href="https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ilya Pavlov</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-
+![Adam AY](https://github.com/gekkowrld/landing-page/blob/3a9e3d32406da6273e15b0ecab29b9044a215820/imgs/adem-ay-Tk9m_HP4rgQ-unsplash.jpg)
 Photo by <a href="https://unsplash.com/@ademay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adem AY</a> on <a href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
