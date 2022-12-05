@@ -37,7 +37,7 @@ Photo by <a href="https://unsplash.com/@linusmimietz?utm_source=unsplash&utm_med
   <br>
   <hr>
   <br>
-<img src="https://github.com/gekkowrld/landing-page/blob/d18bbd374725ae5cb3c18bda3805b4fe3ba095cc/imgs/jr-korpa-stwHyPWNtbI-unsplash.jpg" style= "width: 80vw;" alt="Starry night">
+<img src="https://github.com/gekkowrld/landing-page/blob/d18bbd374725ae5cb3c18bda3805b4fe3ba095cc/imgs/jr-korpa-stwHyPWNtbI-unsplash.jpg" style= "width: 100vw;" alt="Starry night">
 Photo by <a href="https://unsplash.com/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> on <a href="https://unsplash.com/s/photos/technology-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
