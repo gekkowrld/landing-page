@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 20px 100px 100px 100px;
+    background-color: #1f2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo-txt{
+    color: #00f;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: 900;
+    cursor: none;
+}
+.logo-txt > span{
+    color: #00f;
+    animation: logotxtSpan 1s infinite;
+}
+@keyframes logotxtSpan{
+    0%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+@supports (background-clip: text){
+.logo-txt{
+    background-image: linear-gradient(60deg,#00f, #f00);
+    background-clip: text;
+    color: transparent;
+}
+}
+header img{
+    width: 600px;
+}
+
+.header-exp{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.in-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.in-cont > h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.in-cont > p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1.5s;
+}
+button:hover{
+    color: #ccc;
+    background-color: #00f;
+    border-radius: 8px 0 8px 20px;
+    box-shadow: 7px 7px 5px #77f;
+}
+
+
+ul > li{
+    list-style-type: none;
+}
+ul > li > a{
+    text-decoration: none;
+    color: #00f;
+    font-size: 18px;
+    font-weight: 700;
+}
+ul > li > a:visited{
+    color: #00f;
+}
+ul > li > a:hover{
+    opacity: 0.8;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-links > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    padding:100px 170px;
+}
+.info > h2{
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: #00f;
+}
+.my-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    color: #ccc;
+    justify-content: center;
+    align-content: center;
+}
+.my-card img{
+    aspect-ratio: auto;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+[class ^="card-"]{
+    border: #00f 2px solid;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(300deg, #f00, #00f);
+}
+.quote{
+    background-color: #ccc;
+    padding: 100px 70px;
+    text-align: center;
+    background-image: url('./imgs/jr-korpa-stwHyPWNtbI-unsplash.jpg');
+    color: #f00;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 70px;
+}
+[class ^="quot-"] > blockquote{
+    padding: 10px 0;
+}
+cite > a{
+    text-decoration: none;
+    color: #deb887;
+    cursor: pointer;
+}
+cite > a:visited{
+    color: #deb887;
+}
+[class  ^="quot-"]{
+    width: 300px;
+    height: 150px;
+    border-radius: 12px;
+    border: #fff 1px solid;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cta{
+    background:linear-gradient(210deg, #f00,#f55, #5f5,#55f, #00f);
+    padding: 100px;
+    margin: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cta-container{
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 900px;
+    justify-content: space-around;
+    color: #e5e7eb;
+    box-shadow: 7px 7px 5px #ccc;
+}
+.cta-container > button{
+    border: 1px #fff solid;
+    margin: 5px;
+}
+footer{
+    background-color: #1f2937;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 20px 20px 0 0;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+footer > p > span{
+    color: #f00;
+}
+footer > p > a{
+    color: #deb887;
+    text-decoration: none;
+}
+footer > p > a:visited{
+    color: #deb887;
+}
